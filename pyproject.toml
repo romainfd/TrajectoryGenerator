@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "P3A_Mapwize_PathGenerator"
+version = "0.1.0"
+description = ""
+authors = ["Romain Fouilland <romain.fd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+geopy = "^1.22"
+tqdm = "^4.46"
+numpy = "^1.19"
+matplotlib = "^3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
